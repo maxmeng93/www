@@ -19,5 +19,6 @@ jobs:
           username: 'root'
           port: 22
           key: ${{ secrets.SSH_PRIVATE_KEY }}
+          rm: true
           source: './'
           target: '/www/www.maxmeng.top'
