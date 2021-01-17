@@ -1,0 +1,29 @@
+name: Deploy To Server
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  deploy_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: start deploy 
+        run: echo 开始发布代码到服务器
+
+      # 利用 action 把文件上传到服务器
+      - name: deploy file to server
+        uses: wlixcc/SFTP-Deploy-Action@v1.0
+        with:
+          # ssh username
+          username: 'root'
+          # 引用创建好的secret
+          server: '${{ secrets.SERVER_IP }}'
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          local_path: './*'
+          remote_path: '/www/www.maxment.top'
