@@ -18,12 +18,11 @@ jobs:
 
       # 利用 action 把文件上传到服务器
       - name: deploy file to server
-        uses: wlixcc/SFTP-Deploy-Action@v1.0
+        uses: easingthemes/ssh-deploy@v2.1.5
         with:
-          # ssh username
-          username: 'root'
-          # 引用创建好的secret
-          server: '${{ secrets.SERVER_IP }}'
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          local_path: './*'
-          remote_path: '/www/www.maxment.top'
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          ARGS: "-avzr --delete"
+          SOURCE: "./"
+          REMOTE_HOST: '${{ secrets.SERVER_IP }}'
+          REMOTE_USER: 'root'
+          TARGET: '/www/www.maxment.top'
