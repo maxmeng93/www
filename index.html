@@ -14,10 +14,26 @@
     <title>MaxMeng</title>
     <style>
       .box {
-        height: 100vh;
+        height: 70vh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+      }
+
+      .list {
+        padding: 0;
+        display: flex;
+
+      }
+
+      .list li {
+        padding: 0 1em;
+        list-style: none;
+      }
+
+      li a {
+        font-style: none;
       }
     </style>
   </head>
@@ -25,7 +41,7 @@
   <body>
     <div class="box">
       <div>MaxMeng's home</div>
-      <ul>
+      <ul class="list">
         <li><a href="//blog.maxmeng.top/" target="_blank">博客</a></li>
         <li><a href="//github.com/maxmeng93" target="_blank">GitHub</a></li>
         <li><a href="//webstack.maxmeng.top/" target="_blank">书签</a></li>
