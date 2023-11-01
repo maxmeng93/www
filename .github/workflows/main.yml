@@ -17,8 +17,9 @@ jobs:
         with:
           host: ${{ secrets.SERVER_IP }}
           username: 'root'
+          password: ${{ secrets.PASSWORD }}
           port: 22
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          # key: ${{ secrets.SSH_PRIVATE_KEY }}
           rm: true
           source: './'
           target: '/var/www/www.maxmeng.top'
