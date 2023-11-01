@@ -21,4 +21,4 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           rm: true
           source: './'
-          target: '/www/www.maxmeng.top'
+          target: '/var/www/www.maxmeng.top'
