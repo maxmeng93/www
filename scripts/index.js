@@ -55,7 +55,7 @@ const getData = (code) => {
       const inputFilePath = path.join(`./data/index_zh_a_hist/${code}.json`);
       fs.writeFile(
         inputFilePath,
-        JSON.stringify(data, null, 0),
+        JSON.stringify(data, null, 2),
         "utf8",
         (err) => {
           if (err) {
@@ -78,7 +78,7 @@ const getData = (code) => {
       // 将转换后的数据写入新的JSON文件
       fs.writeFile(
         outputFilePath,
-        JSON.stringify(convertedData, null, 0),
+        JSON.stringify(convertedData, null, 2),
         "utf8",
         (err) => {
           if (err) {
@@ -91,8 +91,23 @@ const getData = (code) => {
     });
 };
 
-const list = ["000001", "399006", "000300"];
+const list = [
+  "000001", // 上证指数
+  "399006", // 创业板指
+  "000300", // 沪深300
+  "000905", // 中证500
+  "000852", // 中证1000
+  "932000", // 中证2000
+  "000991", // 全指医药
+  "399989", // 中证医疗
+  "000990", // 全指消费
+  "399396", // 食品饮料
+  "000942", // 内地消费
+  "000827", // 中证环保
+  "000993", // 全指信息
+  "399971", // 中证传媒
+  "399967", // 中证军工
+];
 list.forEach((code) => {
-  // convertData(code);
   getData(code);
 });

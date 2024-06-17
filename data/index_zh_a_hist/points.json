@@ -46,7 +46,101 @@
         "type": 1,
         "date": "2022-12-24",
         "url": "https://weibo.com/5687069307/MbLBxAmUk#comment"
+      },
+      {
+        "min": 3450,
+        "max": 3500,
+        "remark": "如果今年因为什么突发利空导致沪深300跌至3450-3500一线，那么在那个位置买入，未来1-2年的收益将可以保证。",
+        "type": 1,
+        "date": "2023-01-09",
+        "url": "https://mp.weixin.qq.com/s/KUa7Ax4tf1lCnG3Np7BszA"
+      },
+      {
+        "min": 0,
+        "max": 0,
+        "remark": "现在市场跌到了这个份上，我们稍微买入一点沪深300，做波段。因为现在的300，到了一个相对关键的支撑位。",
+        "type": 1,
+        "date": "2023-10-20",
+        "url": "https://mp.weixin.qq.com/s/6Y7Jpz1WHS7M8fjmIH5fTg"
       }
     ]
+  },
+  {
+    "code": "000905",
+    "name": "中证500",
+    "points": []
+  },
+  {
+    "code": "000852",
+    "name": "中证1000",
+    "points": []
+  },
+  {
+    "code": "932000",
+    "name": "中证2000",
+    "points": []
+  },
+  {
+    "code": "000991",
+    "name": "全指医药",
+    "points": [
+      {
+        "min": 9400,
+        "max": 9500,
+        "remark": "医药跌到9400-9500左右，将为未来若干年的超级收益奠定基础。",
+        "type": 1,
+        "date": "2023-01-09",
+        "url": "https://mp.weixin.qq.com/s/KUa7Ax4tf1lCnG3Np7BszA"
+      }
+    ]
+  },
+  {
+    "code": "399989",
+    "name": "中证医疗",
+    "points": []
+  },
+  {
+    "code": "000990",
+    "name": "全指消费",
+    "points": [
+      {
+        "min": 12000,
+        "max": 12500,
+        "remark": "全指消费跌到12000-12500左右，将为未来若干年的超级收益奠定基础。尤其是消费。如果你能在13000以下买入消费，那么未来几年收益率直接起飞。",
+        "type": 1,
+        "date": "2023-01-09",
+        "url": "https://mp.weixin.qq.com/s/KUa7Ax4tf1lCnG3Np7BszA"
+      }
+    ]
+  },
+  {
+    "code": "399396",
+    "name": "食品饮料",
+    "points": []
+  },
+  {
+    "code": "000942",
+    "name": "内地消费",
+    "points": []
+  },
+  {
+    "code": "000872",
+    "name": "中证环保",
+    "points": []
+  },
+  {
+    "code": "000993",
+    "name": "全指信息",
+    "points": []
+  },
+  {
+    "code": "399971",
+    "name": "中证传媒",
+    "points": []
+  },
+  {
+    "code": "399967",
+    "name": "中证军工",
+    "points": []
   }
 ]
