@@ -1,0 +1,31 @@
+name: Update file daily at 9 PM
+
+on:
+  schedule:
+    - cron: "0 21 * * *" # 每天晚上 9 点
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Run update script
+        run: node ./scripts/index.js
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add path/to/your/data.txt
+          git commit -m '每日数据更新'
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.UPDATE_DATA_TOKEN }}
