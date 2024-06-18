@@ -2,7 +2,7 @@ name: Update file daily at 9 PM
 
 on:
   schedule:
-    - cron: "0 21 * * *" # 每天晚上 9 点
+    - cron: "0 * * * *" # 每天晚上 9 点
 
 jobs:
   update-file:
