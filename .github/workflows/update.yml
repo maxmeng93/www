@@ -1,8 +1,9 @@
-name: Update file daily at 9 PM
+name: update data
 
 on:
   schedule:
-    - cron: "0 * * * *" # 每天晚上 9 点
+    - cron: "0 9 * * *" # 每天 UTC 时间早上 9 点，即北京时间下午 5 点
+  workflow_dispatch:
 
 jobs:
   update-file:
@@ -24,7 +25,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add path/to/your/data.txt
+          git add .
           git commit -m '每日数据更新'
           git push
         env:
