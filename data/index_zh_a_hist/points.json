@@ -68,12 +68,54 @@
   {
     "code": "000905",
     "name": "中证500",
-    "points": []
+    "points": [
+      {
+        "min": 0,
+        "max": 0,
+        "remark": "截至目前，上证、500、创业指，经过月初短暂跌破，已经暂时回到了以十年记大趋势之上。",
+        "type": 1,
+        "date": "2024-02-23",
+        "url": "https://weibo.com/7519797263/O1VjZ7VsF"
+      },
+      {
+        "min": 5900,
+        "max": 5900,
+        "remark": "如果是空仓，特别想买，那么5900左右买一点点我看问题不是很大。",
+        "type": 1,
+        "date": "2022-04-15",
+        "url": "https://weibo.com/5687069307/LowQoFmzr"
+      },
+      {
+        "min": 4750,
+        "max": 4800,
+        "remark": "如果你能在4750-4800之间买到，那么直接买10%-15%仓位极大概率不会错。",
+        "type": 1,
+        "date": "2022-04-15",
+        "url": "https://weibo.com/5687069307/LowQoFmzr"
+      },
+      {
+        "min": 8100,
+        "max": 8100,
+        "remark": "目前中证500大气层高度在8100点。",
+        "type": 2,
+        "date": "2023-02-02",
+        "url": "https://weibo.com/7519797263/Mr7W9dO6g"
+      }
+    ]
   },
   {
     "code": "000852",
     "name": "中证1000",
-    "points": []
+    "points": [
+      {
+        "min": 5400,
+        "max": 5500,
+        "remark": "中证1000共振区大致在5400-5500附近。但是单指标还要往下100-200点。到时候再看吧。决定了。1000到共振区，高低得整点。",
+        "type": 1,
+        "date": "2023-08-25",
+        "url": "https://weibo.com/7519797263/NgdYbu7pS"
+      }
+    ]
   },
   {
     "code": "932000",
@@ -91,6 +133,54 @@
         "type": 1,
         "date": "2023-01-09",
         "url": "https://mp.weixin.qq.com/s/KUa7Ax4tf1lCnG3Np7BszA"
+      },
+      {
+        "min": 0,
+        "max": 0,
+        "remark": "致敬50W",
+        "type": 1,
+        "date": "2023-08-07",
+        "url": "https://weibo.com/7519797263/NdBrTcMvi"
+      },
+      {
+        "min": 0,
+        "max": 0,
+        "remark": "致敬50W（159938）。先小小的表达一下敬意。更大的致敬等医疗归位。",
+        "type": 1,
+        "date": "2022-09-23",
+        "url": "https://weibo.com/5687069307/M73ayojwm"
+      },
+      {
+        "min": 9950,
+        "max": 9950,
+        "remark": "看看接下来几天医药医疗能否站稳9950和8570吧。",
+        "type": 1,
+        "date": "2023-11-07",
+        "url": "https://weibo.com/7519797263/NrqFHmFgg"
+      },
+      {
+        "min": 9400,
+        "max": 9500,
+        "remark": "比较值得期待的，是如果因为利空因素，医药跌到9400-9500左右，将为未来若干年的超级收益奠定基础。",
+        "type": 1,
+        "date": "2023-01-09",
+        "url": "https://mp.weixin.qq.com/s/KUa7Ax4tf1lCnG3Np7BszA"
+      },
+      {
+        "min": 18000,
+        "max": 18000,
+        "remark": "之前医药波段积累的极低成本利润不要卖。18000再说。虽然不知道什么时候才会到。",
+        "type": 2,
+        "date": "2022-03-21",
+        "url": "https://weibo.com/5687069307/LkL2DqOsf"
+      },
+      {
+        "min": 9500,
+        "max": 12000,
+        "remark": "接下来的区间目标，是在9500-12000之间，将医药仓位配置完毕。",
+        "type": 1,
+        "date": "2022-01-25",
+        "url": "https://weibo.com/5687069307/Lcoaf8weM"
       }
     ]
   },
