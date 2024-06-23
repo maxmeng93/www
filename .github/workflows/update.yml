@@ -21,11 +21,17 @@ jobs:
       - name: Run update script
         run: node ./scripts/index.js
 
+      - name: Check for changes
+        id: git_status
+        run: |
+          git add .
+          git diff --cached --exit-code || echo "has_changes=true" >> $GITHUB_ENV
+
       - name: Commit changes
+        if: env.has_changes == 'true'
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add .
           git commit -m '每日数据更新'
           git push
         env:
