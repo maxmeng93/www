@@ -1,12 +1,7 @@
 {
   "name": "etf-helper",
   "title": "ETF投资助手",
-  "version": "0.3.2",
-  "grid_update_time": "07-08 17:02",
-  "notices": [
-    {
-      "content": "美国国债与利率",
-      "url": "https://mp.weixin.qq.com/s/PeaoEtLgc_L-u7eyok5qbQ"
-    }
-  ]
+  "version": "0.4.0",
+  "grid_update_time": "07-25 09:13",
+  "notices": []
 }
