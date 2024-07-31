@@ -3,5 +3,10 @@
   "title": "ETF投资助手",
   "version": "0.4.0",
   "grid_update_time": "07-25 09:13",
-  "notices": []
+  "notices": [
+    {
+      "content": "插件0.4.0已经发布一周多了。安装了离线包不能自动更新的，可以点击链接下载最新版。优先从Chrome浏览器商店下载，可以自动更新。",
+      "url": "https://github.com/maxmeng93/hb-helper"
+    }
+  ]
 }
