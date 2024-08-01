@@ -5,6 +5,10 @@
   "grid_update_time": "07-25 09:13",
   "notices": [
     {
+      "content": "ETF投资分析网站上线了！以后功能更新会主要集中在这个网站上。",
+      "url": "https://etf.maxmeng.top?utm_source=etf-helper"
+    },
+    {
       "content": "插件0.4.0已经发布一周多了。安装了离线包不能自动更新的，可以点击链接下载最新版。优先从Chrome浏览器商店下载，可以自动更新。",
       "url": "https://github.com/maxmeng93/hb-helper"
     }
